@@ -1,3 +1,5 @@
+# generateSymplectic.py
+
 # Computes the strongly regular graph parameters for g1 and g2 from the strongly regular
 # decompositions of symplectic graphs. See 
 # Haemers-Higman: Strongly regular graphs with strongly regular decomposition,
