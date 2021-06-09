@@ -1,3 +1,5 @@
+# generateGQ.py
+
 # Computes the SRG parameters for strongly regular decompositions from 
 # hemisystem in H(3,q^2), via the associated GQ(q^2,q)
 # The max value of m is input at command line.
