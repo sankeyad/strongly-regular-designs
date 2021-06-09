@@ -8,6 +8,7 @@ strongly regular decomposition, in which two graphs from the input file are
 the SRGs on the two fibres of the SRD.
 
 Usage: python3.7 SRD-onef.py <infile> <outfile>
+  
 The infile should be a tab-separated text file with one SRG parameter set in the form 'n k lambda mu' per line, e.g.:
 204	63	22	18       
 204	28	2	4
@@ -34,6 +35,7 @@ Krein conditions for coherent configurations, Linear Algebra Appl., 1995, 499 --
 Then the srd and its complement are both tested.
 
 Usage: python3.7 srd-Krein.py <infile> <outfile>
+  
 Input file should have two tab-separated rows per SRD in the form
   n_i    k_i    lam_i    mu_i    rho_i    sig_i  n    k    lam    mu    r    s        S_i    a_i    b_i    N_i    P_i
 
@@ -57,4 +59,5 @@ Computes the SRG parameters for strongly regular decompositions from hemisystem 
 The max value of m is input at command line.
 
 Usage: python3.7 generateGQ.py <max m> <outfile>
+  
 The parameters are computed up to number of vertices on the order of m^4.
